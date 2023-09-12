@@ -1,0 +1,15 @@
+org: leozenberg
+app: alexa-skill-serverless
+service: alexa-skill-serverless
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  luckyNumber:
+    handler: handler.luckyNumber
+    events:
+      - alexaSkill
