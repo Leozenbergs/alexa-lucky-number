@@ -11,5 +11,3 @@ provider:
 functions:
   luckyNumber:
     handler: handler.luckyNumber
-    events:
-      - alexaSkill
